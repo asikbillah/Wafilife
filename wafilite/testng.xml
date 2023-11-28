@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Lenovo/IdeaProjects/wafilite">
+        <classes>
+            <class name="org.example.tests.HomePageTest">
+                <methods>
+                    <include name="homeTest"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.AuthorPageTest">
+                <methods>
+                    <include name="authorPageTest"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.AuthorBookTest">
+                <methods>
+                    <include name="authorBOOKTest"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.OrderPageTest">
+                <methods>
+                    <include name="orderPageTest"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.OrderConfirmPageTest">
+                <methods>
+                    <include name="OrderCONFIRMPageTest"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.CheckoutPageTest">
+                <methods>
+                    <include name="CheckOUTPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

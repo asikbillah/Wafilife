@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Lenovo/IdeaProjects/wafilite(failed)">
+    <classes>
+      <class name="org.example.tests.AuthorPageTest">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="authorPageTest"/>
+          <include name="report"/>
+          <include name="start"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- org.example.tests.AuthorPageTest -->
+      <class name="org.example.tests.OrderConfirmPageTest">
+        <methods>
+          <include name="OrderCONFIRMPageTest"/>
+          <include name="startBrowser"/>
+          <include name="report"/>
+          <include name="start"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- org.example.tests.OrderConfirmPageTest -->
+      <class name="org.example.tests.CheckoutPageTest">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="CheckOUTPage"/>
+          <include name="start"/>
+          <include name="report"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- org.example.tests.CheckoutPageTest -->
+      <class name="org.example.tests.OrderPageTest">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="report"/>
+          <include name="orderPageTest"/>
+          <include name="close"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- org.example.tests.OrderPageTest -->
+      <class name="org.example.tests.AuthorBookTest">
+        <methods>
+          <include name="start"/>
+          <include name="report"/>
+          <include name="startBrowser"/>
+          <include name="authorBOOKTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- org.example.tests.AuthorBookTest -->
+      <class name="org.example.tests.HomePageTest">
+        <methods>
+          <include name="homeTest"/>
+          <include name="startBrowser"/>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- org.example.tests.HomePageTest -->
+    </classes>
+  </test> <!-- C:/Users/Lenovo/IdeaProjects/wafilite(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
